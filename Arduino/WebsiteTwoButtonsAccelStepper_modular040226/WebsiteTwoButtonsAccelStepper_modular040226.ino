@@ -274,35 +274,35 @@ void sendHTML(WiFiClient &client){
     client.print(motorRunning ? "Running" : "Stopped");
     client.println("</p>");
     
-    //   // Funktion zum Abrufen des Luftstromwerts
-    // client.println("<script>");
-    // client.println("function fetchAirflow() {");
-    // client.println("    fetch('/getAirflow')"); 
-    // client.println("        .then(response => response.json())");
-    // client.println("        .then(data => {");
-    // client.println("            document.getElementById('currentAirflow').innerText = data.airflow;");
-    // client.println("        })");
-    // client.println("        .catch(error => console.error('Error fetching airflow:', error));");
-    // client.println("}");
+      // Funktion zum Abrufen des Luftstromwerts
+    client.println("<script>");
+    client.println("function fetchAirflow() {");
+    client.println("    fetch('/getAirflow')"); 
+    client.println("        .then(response => response.json())");
+    client.println("        .then(data => {");
+    client.println("            document.getElementById('currentAirflow').innerText = data.airflow;");
+    client.println("        })");
+    client.println("        .catch(error => console.error('Error fetching airflow:', error));");
+    client.println("}");
     
-    // // Regelmäßiger Abruf des Luftstromwerts
-    // client.println("setInterval(fetchAirflow, 5000);"); // Alle 5 Sekunden aktualisieren
-    // client.println("</script>");
+    // Regelmäßiger Abruf des Luftstromwerts
+    client.println("setInterval(fetchAirflow, 5000);"); // Alle 5 Sekunden aktualisieren
+    client.println("</script>");
 
-    //   // Funktion zum Abrufen des Heliumstromwerts
-    // client.println("<script>");
-    // client.println("function fetchHeliumflow() {");
-    // client.println("    fetch('/getHeliumflow')"); 
-    // client.println("        .then(response => response.json())");
-    // client.println("        .then(data => {");
-    // client.println("            document.getElementById('currentHeliumflow').innerText = data.heliumflow;");
-    // client.println("        })");
-    // client.println("        .catch(error => console.error('Error fetching heliumflow:', error));");
-    // client.println("}");
+      // Funktion zum Abrufen des Heliumstromwerts
+    client.println("<script>");
+    client.println("function fetchHeliumflow() {");
+    client.println("    fetch('/getHeliumflow')"); 
+    client.println("        .then(response => response.json())");
+    client.println("        .then(data => {");
+    client.println("            document.getElementById('currentHeliumflow').innerText = data.heliumflow;");
+    client.println("        })");
+    client.println("        .catch(error => console.error('Error fetching heliumflow:', error));");
+    client.println("}");
     
-    // // Regelmäßiger Abruf des Heliumstromwerts
-    // client.println("setInterval(fetchHeliumflow, 5000);"); // Alle 5 Sekunden aktualisieren
-    // client.println("</script>");
+    // Regelmäßiger Abruf des Heliumstromwerts
+    client.println("setInterval(fetchHeliumflow, 5000);"); // Alle 5 Sekunden aktualisieren
+    client.println("</script>");
 
 
     client.println("<script>");
