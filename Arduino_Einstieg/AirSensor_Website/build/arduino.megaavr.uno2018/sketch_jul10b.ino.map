@@ -1,0 +1,542 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765/..\..\cores\arduino_megaavr_uno2018_mode_on_7061e63fe7363b1ca993ab6925cb4f9a\core.a(main.cpp.o)
+                              c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o (main)
+C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765/..\..\cores\arduino_megaavr_uno2018_mode_on_7061e63fe7363b1ca993ab6925cb4f9a\core.a(wiring.c.o)
+                              main.cpp.o (symbol from plugin) (init)
+C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765/..\..\cores\arduino_megaavr_uno2018_mode_on_7061e63fe7363b1ca993ab6925cb4f9a\core.a(wiring_analog.c.o)
+                              wiring.c.o (symbol from plugin) (analogReference)
+C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765/..\..\cores\arduino_megaavr_uno2018_mode_on_7061e63fe7363b1ca993ab6925cb4f9a\core.a(wiring_digital.c.o)
+                              wiring_analog.c.o (symbol from plugin) (digital_pin_to_timer)
+c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+                              c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o (exit)
+c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+                              C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o (__udivmodhi4)
+c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+                              C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o (__do_copy_data)
+c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+                              C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+fract_inc           0x2               wiring.c.o (symbol from plugin)
+millis_inc          0x2               wiring.c.o (symbol from plugin)
+microseconds_per_timer_overflow
+                    0x2               wiring.c.o (symbol from plugin)
+microseconds_per_timer_tick
+                    0x2               wiring.c.o (symbol from plugin)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ .bss           0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ .text          0x00000000        0x0 C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765\sketch\sketch_jul10b.ino.cpp.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765\core\variant.c.o (symbol from plugin)
+ .text          0x00000000        0x0 main.cpp.o (symbol from plugin)
+ .text          0x00000000        0x0 wiring.c.o (symbol from plugin)
+ .text          0x00000000        0x0 wiring_analog.c.o (symbol from plugin)
+ .text          0x00000000        0x0 wiring_digital.c.o (symbol from plugin)
+ .text          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00802000         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000009         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x802800
+                0x00004000                __RODATA_PM_OFFSET__ = 0x4000
+LOAD c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+Address of section .text set to 0x200
+LOAD C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765\sketch\sketch_jul10b.ino.cpp.o
+LOAD C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+LOAD C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765\core\variant.c.o
+LOAD C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765/..\..\cores\arduino_megaavr_uno2018_mode_on_7061e63fe7363b1ca993ab6925cb4f9a\core.a
+LOAD c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3\libm.a
+START GROUP
+LOAD c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a
+LOAD c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3\libm.a
+LOAD c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3\libc.a
+LOAD c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3\libatmega4809.a
+END GROUP
+                0x00100000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000009]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+                0x00008000                __RODATA_PM_OFFSET__ = DEFINED (__RODATA_PM_OFFSET__)?__RODATA_PM_OFFSET__:0x8000
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000200      0x416
+ *(.vectors)
+ .vectors       0x00000200       0xa0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+                0x00000200                __vector_default
+                0x00000200                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000002a0                . = ALIGN (0x2)
+                0x000002a0                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000002a0        0x0 linker stubs
+ *(.trampolines*)
+                0x000002a0                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000002a0                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000002a0                __ctors_start = .
+ *(.ctors)
+                0x000002a0                __ctors_end = .
+                0x000002a0                __dtors_start = .
+ *(.dtors)
+                0x000002a0                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000002a0        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+                0x000002a0                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000002a0        0xc c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000002ac       0x16 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+                0x000002ac                __do_copy_data
+ .init4         0x000002c2       0x10 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+                0x000002c2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000002d2        0x8 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ *(.init9)
+ *(.text)
+ .text          0x000002da        0x4 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+                0x000002da                __vector_38
+                0x000002da                __vector_22
+                0x000002da                __vector_28
+                0x000002da                __vector_1
+                0x000002da                __vector_32
+                0x000002da                __vector_34
+                0x000002da                __vector_24
+                0x000002da                __vector_12
+                0x000002da                __bad_interrupt
+                0x000002da                __vector_6
+                0x000002da                __vector_31
+                0x000002da                __vector_35
+                0x000002da                __vector_39
+                0x000002da                __vector_3
+                0x000002da                __vector_23
+                0x000002da                __vector_30
+                0x000002da                __vector_25
+                0x000002da                __vector_11
+                0x000002da                __vector_13
+                0x000002da                __vector_17
+                0x000002da                __vector_19
+                0x000002da                __vector_7
+                0x000002da                __vector_27
+                0x000002da                __vector_5
+                0x000002da                __vector_33
+                0x000002da                __vector_37
+                0x000002da                __vector_4
+                0x000002da                __vector_9
+                0x000002da                __vector_2
+                0x000002da                __vector_21
+                0x000002da                __vector_15
+                0x000002da                __vector_29
+                0x000002da                __vector_8
+                0x000002da                __vector_26
+                0x000002da                __vector_14
+                0x000002da                __vector_10
+                0x000002da                __vector_16
+                0x000002da                __vector_18
+                0x000002da                __vector_20
+ .text          0x000002de      0x190 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+                0x000003a6                __vector_36
+                0x0000046e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000046e      0x17c C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+                0x0000046e                main
+ .text.libgcc.div
+                0x000005ea       0x28 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+                0x000005ea                __udivmodhi4
+                0x00000612                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000612        0x0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+                0x00000612                _exit
+                0x00000612                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000612        0x4 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000616                _etext = .
+
+.rodata         0x00004616       0xa4 load address 0x00000616
+ *(.rodata)
+ .rodata        0x00004616       0xa4 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+
+.data           0x00802800        0x4 load address 0x000006ba
+                0x00802800                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00802800        0x4 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ *(.data*)
+ *(.gnu.linkonce.d*)
+                0x00802804                . = ALIGN (0x2)
+                0x00802804                _edata = .
+                0x00802804                PROVIDE (__data_end, .)
+
+.bss            0x00802804       0x12
+                0x00802804                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00802804       0x12 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ *(.bss*)
+ *(COMMON)
+                0x00802816                PROVIDE (__bss_end, .)
+                0x000006ba                __data_load_start = LOADADDR (.data)
+                0x000006be                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00802816        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00802816                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+                                 0x12 (size before relaxing)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000028       0x20 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000048       0x20 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .debug_aranges
+                0x00000068       0x20 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000088       0x20 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3fbb
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x249d c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ .debug_info    0x0000249d     0x181e C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ .debug_info    0x00003cbb       0xc0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .debug_info    0x00003d7b       0xc0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .debug_info    0x00003e3b       0xc0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .debug_info    0x00003efb       0xc0 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+
+.debug_abbrev   0x00000000     0x2650
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000     0x22a8 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ .debug_abbrev  0x000022a8      0x358 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ .debug_abbrev  0x00002600       0x14 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .debug_abbrev  0x00002614       0x14 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x00002628       0x14 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x0000263c       0x14 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000      0x903
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x187 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ .debug_line    0x00000187      0x52e C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+ .debug_line    0x000006b5       0x62 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_exit.o)
+ .debug_line    0x00000717       0xce c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x000007e5       0x98 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_copy_data.o)
+ .debug_line    0x0000087d       0x86 c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avrxmega3\libgcc.a(_clear_bss.o)
+
+.debug_frame    0x00000000       0x90
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+
+.debug_str      0x00000000     0x1947
+ *(.debug_str)
+ .debug_str     0x00000000      0xf8b c:/users/messadmin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtatmega4809.o
+ .debug_str     0x00000f8b      0x9bc C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+                                0x9ec (size before relaxing)
+
+.debug_loc      0x00000000      0x4b6
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4b6 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0x60
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x60 C:\Users\MESSAD~1\AppData\Local\Temp\ccinKcN7.ltrans0.ltrans.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(C:\Users\MessAdmin\AppData\Local\arduino\sketches\A5D62882BFFB528C9C398ADD55DCF765/sketch_jul10b.ino.elf elf32-avr)
+LOAD linker stubs
