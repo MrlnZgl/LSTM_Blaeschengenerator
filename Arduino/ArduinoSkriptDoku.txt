@@ -1,0 +1,24 @@
+Arduino Website Steuerung Doku:
+
+
+PIN Belegung:
+
+A0: Air Sensor 
+A1: Helium Sensor
+
+12: Endschalter Verfahrweg Spritzen
+
+Motor PIns:
+4: DIR
+3: STEP
+
+5: MS1
+6: MS2
+7: MS3 
+--> Notwendig für Mikroschritte
+
+
+https://lastminuteengineers.com/reed-switch-arduino-tutorial/  --> Website mit tutorial für ReedSensor
+Eine Seite mit GND, andere mit PIN verbinden. Dann INPUT_PULLUP aktivieren
+Wenn PIN == LOW --> Sensor aktiviert
+Wenn PIN == HIGH --> Sensor aus 

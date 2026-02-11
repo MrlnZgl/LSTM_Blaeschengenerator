@@ -1,0 +1,6 @@
+11.02.26:
+
+- Eingabe-Kontrolle fixen auf pos und negative Zahlen --> momentan hardcode
+- Distance sensor einbauen --> wenn diese auslöst nur noch negative Zahlen erlauben --> testen obs geht
+dann code für zweiten sensor einbauen
+- außenrum Abfrage nach Zahl überhaupt bauen, damit keine falsche eingabe gemacht werden kann
