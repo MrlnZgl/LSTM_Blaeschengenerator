@@ -31,7 +31,8 @@ int led =  LED_BUILTIN;
 const int airSensorPin=A1;
 const int heliumSensorPin=A0;
 
-const int REED_PIN = 12;
+const int EMPTY_PIN = 12;
+const int FULL_PIN = 13;
 
 // Motor PINS
 #define DIR 4
@@ -88,7 +89,8 @@ void setup() {
     Serial.begin(9600);
 
     pinMode(led, OUTPUT);
-    pinMode(REED_PIN, INPUT_PULLUP);
+    pinMode(EMPTY_PIN, INPUT_PULLUP);
+    pinMode(FULL_PIN, INPUT_PULLUP);
  
     pinMode(A1, INPUT);
     pinMode(A0, INPUT);
@@ -151,7 +153,8 @@ void setup() {
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 void loop() {
   readSensors();
-  handleDistanceSensor();
+  handleEmptyLevelSensor();
+  handleFullLevelSensor();
   handleMotor();
   handleWeb();
 
@@ -191,14 +194,14 @@ void readSensors() {
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // -------------------------------- Read empty fill level sensor ------------------------------------
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-void handleEmptySensor(){
+void handleEmptyLevelSensor(){
     int emptyLevelReading = digitalRead(EMPTY_PIN);
     if (emptyLevelReading == LOW && empty_sensor_status != 0) { 
         empty_sensor_status = 0;
         motorRunning = false;
         Serial.println("Spritzenfüllstand niedrig -> Motor gestoppt, Start gesperrt");
 
-    } else if(distanceReading == HIGH && empty_sensor_status != 1){  // Button losgelassen
+    } else if(emptyLevelReading == HIGH && empty_sensor_status != 1){  // Button losgelassen
         empty_sensor_status = 1;
         Serial.println("Spritzenfüllstand hoch genug -> Start wieder erlaubt");
     }
@@ -207,7 +210,7 @@ void handleEmptySensor(){
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // -------------------------------- Read full fill level sensor ------------------------------------
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-void handleDistanceSensor(){
+void handleFullLevelSensor(){
     int fullLevelReading = digitalRead(FULL_PIN);
     if (fullLevelReading == LOW && full_sensor_status != 0) { 
         full_sensor_status = 0;
@@ -462,20 +465,25 @@ void handleClient(WiFiClient &client){
   client.println("        document.getElementById('errorMsg').innerText = '';");
   client.println("     }");
 
+  //client.println("let lastEmptySensorStatus = null;");
   
 // -------------------- Update emptySensorStatus --------------------
   client.println("function checkEmptySensor(){");
   client.println("  fetch('/emptySensorStatus').then(r=>r.text()).then(s=>{");
+ // client.println("    const newEmptyStatus = parseInt(s);");
   client.println("    emptySensorStatus = parseInt(s);");
-  client.println("    console.log('EmptySensortatusInterval:', emptySensorStatus);"); // Debug
+  client.println("    console.log('EmptySensorStatus:', emptySensorStatus);"); // Debug
+ // client.println("    if(newEmptyStatus != lastEmptySensorStatus){");
+ // client.println("      lastEmptySensorStatus = newEmptyStatus;");
   client.println("    if(emptySensorStatus == 0){");
   client.println("      document.getElementById('errorMsg').innerText = 'Empty Sensor reached, Motor stopped!';");
   client.println("    } else if (emptySensorStatus == 1) {");
   client.println("      document.getElementById('errorMsg').innerText = '';"); 
   client.println("    }");
+ // client.println("    }");
   client.println("  });");
   client.println("}");
-  client.println("setInterval(checkEmptySensor, 20000);"); // jede Sekunde prüfen
+  client.println("setInterval(checkEmptySensor, 2000);"); // jede Sekunde prüfen
 
 // -------------------- Update fullSensorStatus --------------------
   client.println("function checkFullSensor(){");
@@ -489,7 +497,7 @@ void handleClient(WiFiClient &client){
   client.println("    }");
   client.println("  });");
   client.println("}");
-  client.println("setInterval(checkFullSensor, 20000);"); // jede Sekunde prüfen
+  //client.println("setInterval(checkFullSensor, 20000);"); // jede Sekunde prüfen
 
 
   // -------------------- start Motor & update Volumeflow and status --------------------

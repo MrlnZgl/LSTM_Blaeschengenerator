@@ -1,4 +1,4 @@
-const int REED_PIN = 2;	// Pin connected to reed switch
+const int REED_PIN = 12;	// Pin connected to reed switch
 //const int LED_PIN = 13;	// LED pin
 
 void setup() {
